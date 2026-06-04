@@ -69,14 +69,12 @@ header {
     font-size: 0.95rem;
 }
 
-/* Контейнер — только позиция, без оформления */
 .header-logo {
     grid-column: 3;
-    justify-self: start;   /* ← то значение, которое вам нравилось */
+    justify-self: start;
     align-self: center;
 }
 
-/* Подложка — на ссылке внутри */
 .header-logo a {
     display: block;
     line-height: 0;
